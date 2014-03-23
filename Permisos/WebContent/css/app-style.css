@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav{
+	width: 100%;
+	background-color: #428bca;
+}
+
+nav > ul{
+	margin-left: 2%;
+}
+
+nav > ul > li{
+	float: left;
+	list-style: none;
+	padding: 0,5% 0;
+	width: 10%;
+}
+
+nav > ul > li > a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 5% 10%;
+	background-color: #ccc;
+	margin: 2%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+nav > ul > li > a:HOVER{
+	background-color: grey;
+	color: #428bca;
+	text-decoration: none;
+}
+
+
+.limpieza{
+	clear: both;
+}
